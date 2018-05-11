@@ -1,0 +1,50 @@
+<header>
+
+
+  <!-- button to toggle manu on small devices -->
+  <div class="hamburger hide-big">
+    <a (click)="toggleMenu()" href="javascript: void(0)">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- manu navigation -->
+  <nav [ngClass]="{'hide': !isMenuOpen}">
+    <div class="left">
+      <a href="#">
+        <i class="fa fa-home"></i>
+      </a>
+    </div>
+
+    <div class="center hide-small">
+      <h1>Demo App</h1>
+    </div>
+
+    <ul class="right">
+      <li>
+        <a href="#">
+          <i class="fa fa-cloud"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-question-circle"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-user"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span>Guest</span>
+          <i class="fa fa-angle-down"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+</header>

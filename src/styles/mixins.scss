@@ -1,0 +1,8 @@
+@import "~styles/variables.scss";
+
+
+@mixin element-shadow () {
+    -webkit-box-shadow: 0 0 7px darken(#cecbcb, 4);
+    -moz-box-shadow: 0 0 7px darken(#cecbcb, 4);
+    box-shadow: 0 0 7px darken(#cecbcb, 4);
+}

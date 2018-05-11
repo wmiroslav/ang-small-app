@@ -1,0 +1,32 @@
+@import "~styles/variables.scss";
+
+app-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: block;
+    margin-top: 4.1em;
+    overflow: hidden;
+    clear: both;
+    height: 100%;
+}
+app-mail-list {
+    display: block;
+    width: 320px;
+    background-color: white;
+    height: 100%;
+    float: left;
+}
+app-mail-preview {
+    float: right;
+    width: calc(100% - 320px);
+    display: block;
+    height: 100%;
+    background-color: $blue;
+}
+

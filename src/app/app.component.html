@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<div class="wrapper">
+    <app-mail-list (selected)="mailPreview.showMail($event)" class="left"></app-mail-list>
+    <app-mail-preview #mailPreview></app-mail-preview>
+</div>
+
+<app-footer></app-footer>
+
+<div class="bg"></div>
