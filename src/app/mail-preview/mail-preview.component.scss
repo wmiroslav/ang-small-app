@@ -5,6 +5,7 @@
 .header-preview {
     height: 3em;
     border: 1px solid $border-color;
+    border-top: none;
     background-color: white;
     p {
         text-align: center;
